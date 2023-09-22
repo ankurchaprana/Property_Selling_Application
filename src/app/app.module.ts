@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PropertyListComponent } from './Property/property-list/property-list.component';
 import { PropertyCardComponent } from './Property/property-card/property-card.component';
 import { NavBarComponent } from './Property/nav-bar/nav-bar.component';
+import { AddPropertyComponent } from './Property/add-property/add-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertyListComponent,
     PropertyCardComponent,
-    NavBarComponent
+    NavBarComponent,
+    AddPropertyComponent
   ],
   imports: [
     BrowserModule,
